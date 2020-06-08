@@ -1,5 +1,5 @@
-# https://github.com/vuejs/vue/blob/98b4d683f578bb09c4e56f35048e49441c590a41/src/core/util/next-tick.js#L87
-`
+// https://github.com/vuejs/vue/blob/98b4d683f578bb09c4e56f35048e49441c590a41/src/core/util/next-tick.js#L87
+
 const callbacks = []
 let pending = false
 
@@ -114,4 +114,4 @@ export function nextTick (cb?: Function, ctx?: Object) {
     })
   }
 }
-`
+
