@@ -4,3 +4,4 @@ https://github.com/vuejs/vue
 
 已看整理出来的有
 1.nexttick
+2.mixin 20200624
