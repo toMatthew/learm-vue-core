@@ -1,3 +1,7 @@
+/**
+  * 合并策略要注意：比如 data,props,methods是同名属性覆盖合并，其他直接合并
+  * 而生命周期钩子函数则是将同名的函数放到一个数组中，在调用的时候依次调用
+***/
 export function initMixin (Vue: GlobalAPI) {
   Vue.mixin = function (mixin: Object) { // 传入一个vue实例
     this.options = mergeOptions(this.options, mixin) // parent和child
