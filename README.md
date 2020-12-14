@@ -9,4 +9,8 @@ https://github.com/vuejs/vue
 * nexttick  [20200608]    
 * mixin [20200624]   
 
+***********
+https://juejin.cn/post/6903335881227108366#heading-2
+看着片blog才想起这种看源码的方式
 
+使用在 Chrome 的 Sources 面板打断点看
