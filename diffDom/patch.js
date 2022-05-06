@@ -3,6 +3,10 @@ function isUndef (v) {
   return v === undefined || v === null
 }
 
+ function isDef (v) {
+  return v !== undefined && v !== null
+}
+
 // 是否是同一个dom
 function sameVnode (a, b) { // key 和 tag等是否一样 
   return (
